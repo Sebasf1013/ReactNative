@@ -5,4 +5,4 @@ let edad = 24;
 let fechaDeNacimiento = "1999-10-13";
 let direccion = "Calle 61 # 56, Medellín, Colombia";
 
-console.log(nombre, apellido, edad, fechaDeNacimiento, dirección);
+console.log(nombre, apellido, edad, fechaDeNacimiento, direccion);
