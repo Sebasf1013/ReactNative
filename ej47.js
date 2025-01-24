@@ -4,4 +4,6 @@
 
 var alumnos = "Matías, Germán, Nicolás, Silvia, Estefi, Patricia, Ramón";
 alumnos = alumnos.split(", ");
+
+//Con split divido una cadena de texto en un arreglo
 console.log(alumnos);
