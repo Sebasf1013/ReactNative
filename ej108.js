@@ -12,13 +12,15 @@ function ordenarNúmeros(numero1,numero2,numero3,ascendente){
         numeros.sort((a,b) => a - b);
         console.log(numeros);
     }
-    else {
+    else { //Los organiza de forma descendente
         numeros.sort((a,b) => b - a);
         console.log(numeros);
     }
 }
 ordenarNúmeros(5,15,2,false);
 
+
+//Otra manera pero solo descendente
 function ordenarNúmeros1(numero1, numero2, numero3){ //Los organiza de mayor a menor solamente
     if (numero1 > numero2 && numero1 > numero3) {
         console.log(numero1, "es el mayor de todos")
